@@ -4,8 +4,82 @@ title: About Me
 permalink: /about/
 ---
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+<div id="CV">
+    <p>
+    <h1>张云翔</h1>
+    <img src="", width="100"  
+      height="100" />
+    </p>
+    <h2>基本信息</h2>
+    <hr>
+    <h3>性别</h3>
+    <p>男</p>
+    <h3>出生时间</h3>
+    <p>1996年7月</p>
+    <h3>政治面貌</h3>
+    <p>预备党员</p>
+    <h3>籍贯</h3>
+    <p>四川省达州市</p>   
+    <h2>联系方式</h2>
+    <hr>
+    <h3>电话</h3>
+    <p>18401669537</p>
+    <h3>邮箱</h3>
+    <p><a href="mailto://dayekuaipao@email.cn">dayekuaipao@email.cn</a></p>
+    <h3>个人主页</h3>
+    <p><a href="https://dayekuaipao.github.io/sheepfold">https://dayekuaipao.github.io/sheepfold</a></p>
+    <h2>教育经历</h2>
+    <hr>
+    <h3>北京理工大学 计算机学院 软件工程 工程硕士 2018.9-2020.6</h3>
+    <p>主修课程：统计机器学习，计算感知，计算机视觉，深度学习，数字图形处理，智能媒体技术，计算机图形学。</p>
+    <h3>北京理工大学 软件学院 软件工程 本科 2014.9-2018.6</h3>
+    <p>主修课程：数据结构与算法，操作系统，计算机组成原理，软件工程，数据库，人工智能导论，数字媒体导论。</p>
+    <h2>工作经历</h2>
+    <hr>
+    <h3>航天科工二院成都分院 206所 计算机视觉算法工程师 2020.7-今</h3>
+    <p>工作内容：无人车视觉感知系统与车载辅助驾驶系统相关视觉感知系统开发。</p>
+    <h3>中国科学院 自动化所 模式识别实验室 计算机视觉算法工程师（实习） 2019.3-2019.7</h3>
+    <p>工作内容：语义分割算法研究。</p>
+    <h2>项目经历</h2>
+    <hr>
+    <h3>航天科工二院成都分院 206所 发射控制研究室 车载辅助驾驶系统 2020.11-今</h3>
+    <p>对六路摄像头进行标定并进行全景拼接，研究解决了在摄像头畸变较大的情况下全景拼接的问题。基于Caffe框架在BDD100k数据集上训练了MobileNet-SSD模型，实现了车辆和行人检测，并使用 Vitis AI将其部署到Xilinx平台上。</p>
+    <h3>航天科工二院成都分院 206所 发射控制研究室 无人车视觉感知系统 2020.9-2020.11</h3>
+    <p>基于ZED双目相机，使用YOLO v5与DeepSort实现了目标检测、三维位置估计与多目标跟踪算法。在UFLD算法的基础上改进了backbone并添加了注意力机制，实现了乡村土路场景下的车道线检测。使用TensorRT将算法部署到英伟达Jetson Xavier上。</p>
+    <h3>北京理工大学 计算机学院 数字媒体实验室 麻将博弈算法研究 2019.11-2020.6</h3>
+    <p>自学了深度强化学习基础知识，基于PyTorch框架实现了DQN，Double DQN，Dueling DQN，VPG，TRPO，PPO等多种深度强化学习算法，并在自己编写的麻将模拟环境中进行训练以对麻将博弈方法进行研究。硕士毕业论文项目。</p>
+    <h3>北京理工大学 计算机学院 数字媒体实验室 国庆70周年群众游行训练效果评估 2019.7-2019.10</h3>
+    <p>基于PyTorch框架实现了RetinaNet算法，使用其进行人脸检测，并使用TensorRT将其部署到英伟达Jetson TX2上。</p>
+    <h3>中国科学院 自动化所 模式识别实验室 语义分割算法研究 2019.3-2019.7</h3>
+    <p>调研了语义分割领域相关论文如PSPNet、BiSeNet、DeepLab系列等，基于PyTorch框架复现了DeepLab v3+，并通过对DeepLab v3+的decoder进行修改，使其在自己的数据集上的mIOU从0.52提升到0.58。</p>
+    <h3>北京理工大学 计算机学院 数字媒体实验室 智慧西海 2018.9-2019.1</h3>
+    <p>使用基于DarkNet框架的YOLO v3算法对多路摄像头视频进行行人与车辆检测，并将检测结果保存在数据库中。同时使用C#进行一些数据库系统的开发。</p>
+    <h3>北京理工大学 软件学院 数字媒体实验室 多目标跟踪算法研究 2017.11-2018.6</h3>
+    <p>自学了深度学习与计算机视觉相关知识，使用基于DarkNet框架的YOLO v3以及DeepSort实现了多目标跟踪算法。本科毕业论文项目。</p>
+    <h3>北京理工大学 软件学院 嵌入式实验室 大学生创新项目 2015.6-2017.6</h3>
+    <p>参与使用Arduino开发《一种多功能窗帘与窗户助手》，并获国家实用新型专利。参与智能家庭机器人开发，使用Haar分类器进行人脸检测与识别并使用ROS进行通信，获RoboCup家庭组季军。</p>
+    <h2>知识技能</h2>
+    <hr>
+    <p>
+    掌握计算机专业基础知识，包括数据结构与算法，操作系统，计算机组成原理，软件工程，数据库等。<br>
+    通过CET6，具有较强的英文文献阅读与书写能力。<br>
+    熟悉C++，Python，了解C#。<br>
+    了解常见的数字图像处理方法。<br>
+    熟悉神经网络与深度学习算法。<br>
+    了解常见的机器学习算法，如：感知机、逻辑斯蒂回归、朴素贝叶斯分类器、支持向量机等。<br>
+    了解常见的传统计算机视觉算法，如：SIFT，SURF，HOG等图像特征与机器学习算法的结合等。<br>
+    了解相机模型与多视角视觉基础知识。<br>
+    了解常见的目标检测算法，如：Faster RCNN，SSD，YOLO系列，RetinaNet等。<br>
+    了解常见的语义分割算法，如：FCN，PSPNet，BiSeNet，DeepLab系列等。<br>
+    了解Sort，DeepSort等跟踪算法。<br>
+    了解常见的深度强化学习算法，如：DQN，Double DQN，Dueling DQN，VPG，TRPO，PPO等。<br>
+    熟悉OpenCV。<br>
+    熟悉Caffe，PyTorch，MXNet，TensorFlow2与DarkNet等深度学习框架。<br>
+    熟悉MarkDown，了解LaTeX用法。<br>
+    熟悉Linux环境与shell命令。<br>
+    了解ROS。<br>
+    了解TensorRT。<br>
+    了解Xilinx开发平台工具链，如Vitis Vision Library和Vitis AI等。<br>
+    </p>
+  </div>
 
-
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
